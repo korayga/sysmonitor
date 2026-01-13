@@ -164,13 +164,21 @@ bash/
     │   ├── services.sh   # Servis yönetimi
     │   └── utils.sh      # Yardımcı fonksiyonlar
     │
-    ├── gui/               # GUI modülleri (YAD)
+    ├── gui/              # GUI modülleri (YAD)
     │   ├── main_gui.sh
     │   ├── monitor_gui.sh
     │   ├── service_gui.sh
     │   ├── logs_gui.sh
     │   ├── cron_gui.sh
-    │   └── firewal_gui.sh
+    │   └── firewall_gui.sh
+    │
+    └── tui/              # TUI modülleri (Whiptail)
+        ├── main_tui.sh
+        ├── monitor_tui.sh
+        ├── service_tui.sh
+        ├── logs_tui.sh
+        ├── cron_tui.sh
+        └── firewall_tui.sh
 ```
 
 - ✅ Servis başlatma/durdurma/yeniden başlatma
@@ -290,6 +298,7 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 - **Linkedin:** [korayga](https://www.linkedin.com/in/koray-garip/)
 
 ---
+
 
 
 
