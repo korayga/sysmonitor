@@ -185,10 +185,10 @@ bash/
 ### GUI Modu
 
 #### Ana Menü
-![GUI Ana Menü](assets/gui/gui_mn.png)
+![GUI Ana Menü](assets/gui/gui_m.png)
 
 #### Sistem Monitör
-![GUI Sistem Monitör](assets/gui/gui_m.png)
+![GUI Sistem Monitör](assets/gui/gui_mn.png)
 
 #### Servis Yönetimi
 ![GUI Servis Yönetimi](assets/gui/gui_s.png)
@@ -290,6 +290,7 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 - **Linkedin:** [korayga](https://www.linkedin.com/in/koray-garip/)
 
 ---
+
 
 
 
