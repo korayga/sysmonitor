@@ -8,6 +8,17 @@
 
 > Sistem yönetim görevlerinizi basitleştirin! GUI ve TUI arayüzleriyle Linux sunucularınızı kolayca yönetin.
 
+## 📹 Video Demo
+
+Aracın tüm özelliklerini ve kullanımını detaylı olarak görmek için demo videosunu izleyebilirsiniz:
+**[🎬 Demo Videosunu İzle](https://youtu.be/75atZ-39RT4)**
+
+[![Sistem Yönetim Aracı - Demo Video](https://img.youtube.com/vi/75atZ-39RT4/maxresdefault.jpg)](https://youtu.be/75atZ-39RT4)
+
+
+
+
+
 ## ✨ Özellikler
 
 ### 📊 Sistem Monitör
@@ -298,6 +309,7 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 - **Linkedin:** [korayga](https://www.linkedin.com/in/koray-garip/)
 
 ---
+
 
 
 
