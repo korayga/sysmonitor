@@ -105,7 +105,7 @@ sudo apt-get install yad whiptail ufw
 ### 2. Projeyi İndirin
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/korayga/sysmonitor
 cd bash
 ```
 
@@ -116,7 +116,7 @@ chmod +x sysmonitor.sh
 chmod +x install.sh
 ```
 
-### 4. Kurulum Scriptini Çalıştırın (opsiyonel)
+### 4. Kurulum Scriptini Çalıştırın
 
 ```bash
 ./install.sh
@@ -146,11 +146,6 @@ chmod +x install.sh
 ./sysmonitor.sh --help
 ```
 
-### Versiyon Bilgisi
-
-```bash
-./sysmonitor.sh --version
-```
 
 ## 📁 Proje Yapısı
 
@@ -175,13 +170,14 @@ bash/
     │   ├── service_gui.sh
     │   ├── logs_gui.sh
     │   ├── cron_gui.sh
-    │   └── firewal(sudo) yetkisi gerektirir:
+    │   └── firewal_gui.sh
+
 - ✅ Servis başlatma/durdurma/yeniden başlatma
 - ✅ Firewall yönetimi (port açma/kapama)
 - ✅ Sistem loglarına tam erişim
 - ✅ Cron görevleri ekleme/silme
 
-**Not**: Normal kullanıcı ile çalıştırabilirsiniz, ancak yetkili işlemler için sudo şifresi istenecektir.
+
 
 ## 📸 Ekran Görüntüleri
 
@@ -225,34 +221,7 @@ bash/
 #### Firewall Yönetimi
 ![TUI Firewall Yönetimi](assets/tui/tui_f.png)
 
-## 🚀 Hızlı Başlangıç
 
-### Tek Komut Kurulum
-
-```bash
-git clone https://github.com/korayga/sysmonitor.git
-cd sysmonitor
-chmod +x sysmonitor.sh install.sh
-./install.sh
-```
-
-### Manuel Kurulum
-
-```bash
-# 1. Bağımlılıkları yükle
-sudo apt-get update && sudo apt-get install yad whiptail ufw -y
-
-# 2. Projeyi klonla
-git clone https://github.com/korayga/sysmonitor.git
-cd sysmonitor
-
-# 3. İzinleri ver
-chmod +x sysmonitor.sh
-chmod +x src/**/*.sh
-
-# 4. Çalıştır
-./sysmonitor.sh --gui
-```
 
 ## 💡 Kullanım Örnekleri
 
@@ -320,6 +289,7 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 - **Linkedin:** [korayga](https://www.linkedin.com/in/koray-garip/)
 
 ---
+
 
 
 
