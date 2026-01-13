@@ -171,6 +171,7 @@ bash/
     │   ├── logs_gui.sh
     │   ├── cron_gui.sh
     │   └── firewal_gui.sh
+```
 
 - ✅ Servis başlatma/durdurma/yeniden başlatma
 - ✅ Firewall yönetimi (port açma/kapama)
@@ -289,6 +290,7 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 - **Linkedin:** [korayga](https://www.linkedin.com/in/koray-garip/)
 
 ---
+
 
 
 
